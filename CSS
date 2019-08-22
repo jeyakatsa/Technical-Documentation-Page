@@ -6,21 +6,42 @@ body {
 
 #navbar {
   position: fixed;
-  min-width: 290px;
   top: 0px;
   left: 0px;
   width: 300px;
   height: 100%;
-  border-right: solid;
-  border-color: rgba(0, 22, 22, 0.4);
+  background-color: white;
+  box-shadow: 0 0px 50px -20px black;
 }
 
 header {
-  color: black;
-  margin: 10px;
-  text-align: center;
-  font-size: 1.8em;
-  font-weight: thin;
+  position: sticky;
+  margin-top: -25px;
+  margin-left: -69px;
+  width: 350px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+  height: 130px;
+  background-color: white;
+  box-shadow: -5px 40px 20px -48px #678b71;
+}
+
+#title {
+  color: #678b71;
+  margin-left: 80px;
+  font-weight: 600;
+  font-size: 30pt;
+}
+
+#under-title {
+  color: #678b71;
+  font-size: 13pt;
+  margin-left: 88px;
+  font-weight: 600;
+  margin-top: -40px;
+  opacity: .7;
 }
 
 #main-doc header {
@@ -29,24 +50,47 @@ header {
 }
 
 #navbar ul {
-  height: 88%;
+  margin-top: 144px;
+  height: 70%;
   padding: 0;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
 #navbar li {
-  color: #4d4e53;
-  border-top: 1px solid;
+  line-height: 30px;
+  font-size: 10.5pt;
+  font-weight: 600;
   list-style: none;
   position: relative;
   width: 100%;
 }
 
+#first {
+  margin-top: 25px;
+}
+
 #navbar a {
   display: block;
-  padding: 10px 30px;
-  color: #4d4e53;
+  padding: 10px 45px;
+  color: gray;
   text-decoration: none;
-  cursor: pointer;
+  opacity: .7;
 }
+
+#navbar a:hover {
+  color: #678b71;
+  cursor: pointer;
+  opacity: 1;
+}
+
+#navbar a:focus {
+  color: #678b71;
+  cursor: pointer;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar ul {
+    height: 207px;
+  }
