@@ -33,7 +33,7 @@
 </div>
 <main id="main-doc">
   <section class="main-section" id="Introduction">
-    <header>Introduction</header>
+    <header id="top-header">Introduction</header>
     <article>
       <p>
         JavaScript is a cross-platform, object-oriented scripting language. It
@@ -316,14 +316,19 @@
       In the case of multiple conditions only the first logical condition which
       evaluates to true will be executed. To execute multiple statements, group
       them within a block statement ({ ... }) . In general, it's good practice
-      to always use block statements, especially when nesting if statements:
-
-      <code
-        >if (condition) { statement_1_runs_if_condition_is_true;
+      to always use block statements, especially when nesting if statements: <span id="mobile-opt">(NOTE: spaces in between underscores "_" must be removed for code to work, spaces were set for mobile optimization)</span>
+      
+            <code id="desktop-opt"
+        >if (condition) {statement_1_runs_if_condition_is_true;
         statement_2_runs_if_condition_is_true; } else {
         statement_3_runs_if_condition_is_false;
-        statement_4_runs_if_condition_is_false; }</code
-      >
+        statement_4_runs_if_condition_is_false; }</code>
+
+      <code id="mobile-opt"
+        >if (condition) {statement _ 1 _ runs _ if _ condition _ is _ true;
+        statement _ 2 _ runs _ if _ condition _ is _ true; } else {
+        statement _ 3 _ runs _ if _ condition _ is _ false;
+        statement _ 4 _ runs _ if _ condition _ is _ false; }</code>
       It is advisable to not use simple assignments in a conditional expression,
       because the assignment can be confused with equality when glancing over
       the code. For example, do not use the following code:
