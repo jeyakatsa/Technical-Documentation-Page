@@ -18,7 +18,7 @@ body {
   width: 300px;
   height: 100%;
   background-color: white;
-  box-shadow: 0 0px 50px -20px black;
+  box-shadow: 0 20px 45px -30px white;
 }
 
 #header {
@@ -32,7 +32,7 @@ body {
   padding-bottom: 20px;
   height: 130px;
   background-color: white;
-  box-shadow: -5px 40px 20px -48px #678b71;
+  box-shadow: 20px 45px 20px -48px #678b71;
 }
 
 #title {
@@ -48,12 +48,11 @@ body {
   margin-left: 88px;
   font-weight: 600;
   margin-top: -40px;
-  opacity: .7;
 }
 
 #navbar ul {
   margin-top: 144px;
-  height: 70%;
+  height: 80%;
   padding: 0;
   overflow-y: auto;
   overflow-x: hidden;
@@ -75,20 +74,18 @@ body {
 #navbar a {
   display: block;
   padding: 10px 45px;
-  color: gray;
+  color: black;
   text-decoration: none;
   opacity: .7;
 }
 
 #navbar a:hover {
-  color: black;
+  color: gray;
   cursor: pointer;
-  opacity: .7;
 }
 
-#navbar a:focus {
-  color: black;
-  opacity: .7;
+#navbar a:active {
+  color: gray;
 }
 
 @media only screen and (max-width: 815px) {
@@ -100,7 +97,7 @@ body {
 #main-doc {
   background-color: #d4e9da;
   position: absolute;
-  margin-left: 360px;
+  margin-left: 340px;
   padding: 20px;
   margin-bottom: 110px;
   z-index: 1;
@@ -108,7 +105,8 @@ body {
 
 #main-doc header {
   margin-top: 110px;
-  color: #688b6d;
+  color: black;
+  opacity: .7;
   text-align: left;
   font-size: 25pt;
   font-weight: 600;
