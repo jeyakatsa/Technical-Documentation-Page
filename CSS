@@ -51,8 +51,8 @@ body {
 }
 
 #navbar ul {
-  margin-top: 144px;
-  height: 80%;
+  margin-top: 100px;
+  height: 100%;
   padding: 0;
   overflow-y: auto;
   overflow-x: hidden;
@@ -68,7 +68,11 @@ body {
 }
 
 #first {
-  margin-top: 25px;
+  margin-top: 75px;
+}
+
+#last {
+  margin-bottom: 300px;
 }
 
 #navbar a {
@@ -76,7 +80,7 @@ body {
   padding: 10px 45px;
   color: black;
   text-decoration: none;
-  opacity: .7;
+  opacity: .5;
 }
 
 #navbar a:hover {
@@ -155,12 +159,12 @@ code {
   color: gray;
 }
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 800px) {
 #entire-navbar {
     position: absolute;
     top: 0;
-    margin-left: -5%;
-    margin-right: -5%;
+    left: 0;
+    right: 0;
     width: 100%;
     max-height: 275px;
   }
@@ -168,45 +172,43 @@ code {
 #navbar {
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: 0;
   width: 100%;
-  height: 350px;
+  height: 300px;
   box-shadow: 0 20px 45px -100px white;
 }
 
 #header {
   position: sticky;
   margin-top: -25px;
-  margin-left: -5%;
-  margin-right: -5%;
+  margin-left: -10px;
+  margin-right: 0%;
   width: 100%;
   padding-left: 5px;
   padding-top: 10px;
   padding-right: 5px;
   padding-bottom: 20px;
-  height: 130px;
+  height: 100px;
   background-color: white;
-  box-shadow: 20px 45px 20px -48px #678b71;
+  box-shadow: 0px -7px 20px 0px #678b71;
 }
 
 #title {
-  color: #678b71;
-  margin-left: 80px;
+  margin-left: 40px;
   font-weight: 600;
-  font-size: 30pt;
+  font-size: 25pt;
 }
 
 #under-title {
-  color: #678b71;
   font-size: 13pt;
-  margin-left: 88px;
+  margin-left: 50px;
   font-weight: 600;
-  margin-top: -40px;
+  margin-top: -35px;
 }
 
 #navbar ul {
-  margin-top: 40px;
-  height: 207px;
+  margin-top: 70px;
+  height: 230px;
 }
 
 #navbar li {
@@ -216,15 +218,35 @@ code {
   list-style: none;
   width: 100%;
 }
+  
+#main-doc {
+  z-index: 3;
+}
 
 #first {
+  margin-top: 55px;
+}
+
+#last {
+  margin-bottom: 40px;
+}
+  
+#to-cover {
   margin-top: 25px;
+  position: relative;
+  width: 120%;
+  left: 0;
+  right: 0;
+  margin-left: -30px;
+  height: 40px;
+  background-color: #d4e9da;
+  z-index: 3;
 }
   
   #main-doc {
     position: relative;
     margin-left: 0px;
-    margin-top: 270px;
+    margin-top: 240px;
   }
   
 section article {
