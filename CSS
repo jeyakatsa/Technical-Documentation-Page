@@ -6,6 +6,18 @@ body {
   background-color: #d4e9da;
 }
 
+@media only screen and (max-width: 800px) {
+  body {
+    -webkit-text-size-adjust: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    -webkit-text-size-adjust: none;
+  }
+}
+
 #entire-navbar {
   position: fixed;
   z-index: 2;
