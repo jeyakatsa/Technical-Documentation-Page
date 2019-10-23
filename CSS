@@ -294,7 +294,8 @@ section li {
 }
   
     #main-doc {
-    margin-left: 10px;
+    margin-left: 0px;
+
   }
   section article {
     margin-left: 20px;
@@ -302,7 +303,7 @@ section li {
   }
   
   section article ul {
-    margin-left: -20px;
+    margin-left: -35px;
   }
 
   code {
