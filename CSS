@@ -2,7 +2,7 @@ html,
 body {
   min-width: 290px;
   text-align: left;
-  font-family: century gothic;
+  font-family: 'MyWebFont', century gothic, sans-serif;
   background-color: #d4e9da;
 }
 
