@@ -257,6 +257,10 @@ display: none;
     margin-top: 70px;
   }
   
+  #main-doc header {
+    opacity: .6;
+  }
+  
 section article {
   color: black;
   margin-top: 30px;
@@ -264,7 +268,7 @@ section article {
   margin-left: 50px;
   font-size: 12pt;
   line-height: 40px;
-  opacity: .6;
+  opacity: .5;
 }
 
 section li {
